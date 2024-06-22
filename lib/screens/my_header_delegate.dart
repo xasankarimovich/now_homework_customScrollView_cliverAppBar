@@ -17,8 +17,6 @@ class SliverHeaderDelegate extends SliverPersistentHeaderDelegate {
       double shrinkOffset,
       bool overlapsContent,
       ) {
-    // Null qiymat tekshiruvi
-    assert(child != null, 'child cannot be null');
     return SizedBox.expand(
       child: child,
     );

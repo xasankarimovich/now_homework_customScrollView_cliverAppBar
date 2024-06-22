@@ -8,15 +8,9 @@ class MyAppBar extends StatelessWidget {
       floating: false,
       pinned: true,
       flexibleSpace: FlexibleSpaceBar(
-        title: Text(
-          'My Favorite Car',
-          style: TextStyle(
-            color: Colors.blue,
-            fontSize: 30,
-          ),
-        ),
+        title: Text('Order Details'),
         background: Image.network(
-          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD891ewJ5FqJ1wt0G6HjSANr6LBmMHRe6RHg&s',
+          'https://ae04.alicdn.com/kf/Sae31b1c70384443391480a42e552f287l.jpg_640x640.jpg',
           fit: BoxFit.cover,
         ),
       ),
